@@ -2,7 +2,7 @@ import * as Convict from 'convict';
 
 export interface TConfigSchema {
     PORT: number
-}
+};
 
 export const Schema: Convict.Schema<TConfigSchema> = {
     PORT: {
@@ -12,4 +12,4 @@ export const Schema: Convict.Schema<TConfigSchema> = {
         env: 'PORT',
         arg: 'port'
     }
-}
+};
