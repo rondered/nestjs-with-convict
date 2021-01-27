@@ -1,0 +1,89 @@
+{
+  "program": {
+    "fileInfos": {
+      "../src/app.service.ts": {
+        "version": "eaf8514ce110fa428a93a27408df4d06d133dbd9ed0a775c315ddfdd507853a9",
+        "signature": "653711fba8904aa27fd8911b63cf526e7b334e13a292da4cefdbbe179ac3f3f2",
+        "affectsGlobalScope": false
+      },
+      "../src/app.controller.ts": {
+        "version": "260f889b9e2b69f77be1155348eb345166aec664b3efff6720053c6844a41f28",
+        "signature": "ef022c91ea9e75ab4082f2e881f9c4db7b346be2da706e876b253bebce5e6140",
+        "affectsGlobalScope": false
+      },
+      "../src/config/config.schema.ts": {
+        "version": "6712686e7d5faf23252383bf85a55ecd5ab152ddc3b0fe7fb240072e9cbd61a7",
+        "signature": "19480178c4ba76e20b9cb372b96faf4f7741f34e6962f628a734737456d9c529",
+        "affectsGlobalScope": false
+      },
+      "../src/config/config.service.ts": {
+        "version": "01db141f25e400deef76438a2a17fe277650304e05be7f2455ae4c4d7964a07d",
+        "signature": "9baf4ceffa9f4092f4cee25a5ebdcb487d068728b266c0c4143d9553a12d60ca",
+        "affectsGlobalScope": false
+      },
+      "../src/config/config.module.ts": {
+        "version": "0acfc79b79eb142753f536328c71a078de0d42b10da21469a24ac15bc3b8894b",
+        "signature": "9fe85da0b3b1a97564fee3944f7889e43d6329d99e6d0e5ca9980b743b97c5b3",
+        "affectsGlobalScope": false
+      },
+      "../src/app.module.ts": {
+        "version": "f6abb4ff765db0667748b770ce376e1a805fd7c39bc957f1b2261e3dfbaa2071",
+        "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
+        "affectsGlobalScope": false
+      },
+      "../src/main.ts": {
+        "version": "3dcaff258b3457ed7b6dd8337a3775d6e9cd920078f379d163568dfeecf85587",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "module": 1,
+      "declaration": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "target": 4,
+      "sourceMap": true,
+      "outDir": "./",
+      "baseUrl": "..",
+      "incremental": true,
+      "configFilePath": "../tsconfig.build.json"
+    },
+    "referencedMap": {
+      "../src/app.controller.ts": [
+        "../src/app.service.ts"
+      ],
+      "../src/app.module.ts": [
+        "../src/app.controller.ts",
+        "../src/app.service.ts",
+        "../src/config/config.module.ts",
+        "../src/config/config.service.ts"
+      ],
+      "../src/config/config.module.ts": [
+        "../src/config/config.service.ts"
+      ],
+      "../src/config/config.service.ts": [
+        "../src/config/config.schema.ts"
+      ],
+      "../src/main.ts": [
+        "../src/app.module.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../src/app.controller.ts": [
+        "../src/app.service.ts"
+      ],
+      "../src/config/config.schema.ts": [
+        "../node_modules/@types/convict/index.d.ts"
+      ],
+      "../src/config/config.service.ts": [
+        "../node_modules/@types/convict/index.d.ts",
+        "../src/config/config.schema.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": []
+  },
+  "version": "4.1.3"
+}
