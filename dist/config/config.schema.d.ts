@@ -1,5 +1,5 @@
-import convict from "convict";
+import * as Convict from 'convict';
 export interface TConfigSchema {
     PORT: number;
 }
-export declare const Schema: convict.Schema<TConfigSchema>;
+export declare const Schema: Convict.Schema<TConfigSchema>;
