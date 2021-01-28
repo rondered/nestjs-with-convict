@@ -14,7 +14,7 @@ export class ConfigService {
         if (dotEnvFile) {
             this.config.load(dotenv.config().parsed);
         }
-        this.config.validate({ allowed: 'warn' })
+        this.config.validate({ allowed: 'warn' });
     }
 
     get(configName: string) {
